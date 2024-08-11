@@ -1,0 +1,52 @@
+# 일반적인 OS 파일
+.DS_Store
+Thumbs.db
+
+# IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Maven
+target/
+
+# sbt
+*.sublime-workspace
+project/target/
+project/project/
+target/
+lib_managed/
+src_managed/
+.ensime_cache
+.cache/
+history/
+logs/
+*.lock
+*.log
+*.tmp
+dist/
+db/
+
+# Eclipse
+*.class
+*.classpath
+*.project
+*.settings
+*.scala_dependencies
+.cache/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# 피어 리뷰에서 자주 언급되는 점
+*.log
+*.tmp
+
+# 빌드 도구에서 생성된 파일
+dist/
+db/
+
+# 특정한 테스트 결과
+/test-result.xml
